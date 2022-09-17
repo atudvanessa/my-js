@@ -1,0 +1,16 @@
+body {
+    text-align: center;
+    width: 100px;
+}
+.cell {
+    height: 40px;
+    width: 50px;
+    border: 1.5px solid grey;
+    border-style: inset;
+}
+.blackcell {
+    background-color: black;
+}
+.whitecell {
+    background-color: white;
+}
