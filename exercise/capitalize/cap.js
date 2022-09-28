@@ -8,3 +8,7 @@ function capitalizeTheFirstLetterOfEachWord(words) {
 }
 console.log(capitalizeTheFirstLetterOfEachWord("sir carlson is my mentor and i am his student"));
 console.log(capitalizeTheFirstLetterOfEachWord("sir carlson is my mentor and i am his student"));
+
+
+let sir="Sir Carlson Is My Mentor";
+console.log (sir.toUpperCase())

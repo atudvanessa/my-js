@@ -47,3 +47,14 @@ console.log(object1 == object3);
 object1.value = 15;
 console.log(object2.value);
 console.log(object3.value);
+
+
+
+function phi(table) {
+    return (table[3] * table[0] - table[2] * table[1]) /
+    Math.sqrt((table[2] + table[3]) *
+    (table[0] + table[1]) *
+    (table[1] + table[3]) *
+    (table[0] + table[2]));
+    }
+    console.log(phi([76, 9, 4, 1]));

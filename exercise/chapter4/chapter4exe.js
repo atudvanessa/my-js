@@ -71,6 +71,9 @@ sum = (numbers) => {
 
 
    // A list
+   arrayToList = () =>{
+    
+   }
 
 
 
