@@ -36,5 +36,12 @@ function greaterThan(n) {
         };
         }
         noisy(Math.min)(3, 2, 1);
+        
+        function repeat(n, action) {
+            for (let i = 0; i < n; i++) {
+            action(i);
+            }
+            }
+            repeat(3, console.log);
 
         
